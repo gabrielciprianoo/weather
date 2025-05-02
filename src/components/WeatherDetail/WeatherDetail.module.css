@@ -1,0 +1,47 @@
+.card {
+    background: linear-gradient(145deg, #d0e8ff, #ffffff);
+    border-radius: 1.5rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 30rem;
+    margin: 2rem auto;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .cityName {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #1a237e;
+  }
+  
+  .temperature {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #42a5f5;
+    margin: 0.5rem 0;
+  }
+  
+  .temps {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  .tempMin,
+  .tempMax {
+    font-size: 2rem;
+    color: #424242;
+  }
+  
+  .tempMin span,
+  .tempMax span {
+    font-weight: 600;
+    color: #1a237e;
+  }
+  
