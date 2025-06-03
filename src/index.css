@@ -15,4 +15,13 @@ body{
     background-repeat: no-repeat;
     color: var(--white);
     font-size: 2rem;
+    position: relative;
+}
+
+body::before{
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0,0,0,.5);
+    z-index: -1;
 }
